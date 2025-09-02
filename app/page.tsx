@@ -1,10 +1,11 @@
+import Container from "@/components/Container"
 import { Button } from "@/components/ui/button"
 
 const page = () => {
   return (
-    <div>
+    <Container>
       <Button>Click</Button>
-    </div>
+    </Container>
   )
 }
 export default page
