@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 
 const HeaderMenu = () => {
   const pathname = usePathname();
-  console.log(pathname)
+  
   return (
     <div className="hidden md:inline-flex w-1/3 gap-7 items-center text-sm capitalize font-semibold text-lightColor">
       {headerData.map((item) => (
