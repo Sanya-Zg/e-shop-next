@@ -1,6 +1,12 @@
+import { SignInButton } from '@clerk/nextjs';
+
 const SignIn = () => {
   return (
-    <button className="text-sm font-semibold text-lightColor hover:text-darkColor hover:cursor-pointer hoverEffect">Sign In</button>
-  )
-}
-export default SignIn
+    <SignInButton mode="modal">
+      <button className="text-sm font-semibold text-lightColor hover:text-darkColor hover:cursor-pointer hoverEffect">
+        Sign In
+      </button>
+    </SignInButton>
+  );
+};
+export default SignIn;
