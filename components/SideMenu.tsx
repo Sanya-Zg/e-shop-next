@@ -2,7 +2,7 @@
 import { FC } from 'react';
 import Logo from './Logo';
 import { X } from 'lucide-react';
-import { headerData } from '@/app/constans/data';
+import { headerData } from '@/constans/data';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import SocialMedia from './SocialMedia';
